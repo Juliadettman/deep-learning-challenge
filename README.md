@@ -16,9 +16,10 @@ SPECIAL_CONSIDERATIONS—Special consideration for application
 ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively
 Instructions
+
+
 Step 1: Preprocess the data
 I used Pandas and the Scikit-Learn’s StandardScaler(), and I preprocess the dataset in order to compile, train, and evaluated the neural network model later in Step 2
-
 Preprocessing steps taken.
 
 Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
@@ -29,6 +30,8 @@ Determine the number of unique values for each column.
 For those columns that have more than 10 unique values, determine the number of data points for each unique value.
 Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful.
 Use pd.get_dummies() to encode categorical variables
+
+
 Step 2: Compile, Train, and Evaluate the Model
 Using TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
@@ -42,6 +45,8 @@ Compile and train the model.
 Create a callback that saves the model's weights every 5 epochs.
 Evaluate the model using the test data to determine the loss and accuracy.
 Save and export your results to an HDF5 file, and name it AlphabetSoupCharity.h5.
+
+
 Step 3: Optimize the Model
 Using TensorFlow, optimize your model in order to achieve a target predictive accuracy higher than 75%. If I can't achieve an accuracy higher than 75%, I'll need to make at least three attempts to do so.
 
