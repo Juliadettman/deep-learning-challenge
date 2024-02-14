@@ -65,13 +65,13 @@ Imported dependencies, and read in the charity_data.csv to a Pandas DataFrame.
 Preprocess the dataset like Step 1, taking into account any modifications to optimize the model.
 Design a neural network model, taking into account any modifications that will optimize the model to achieve higher than 75% accuracy.
 Saved and exported your results to an HDF5 file, and name it AlphabetSoupCharity_Optimization.h5.
+
+
 Step 4: Write a Report on the Neural Network Model
 Write a report on the performance of the deep learning model I created for AlphabetSoup.
 
 The report contains the following:
-
 Overview of the analysis: Explain the purpose of this analysis.
-
 Results: Using bulleted lists and images to support my answers, address the following questions.
 
 Data Preprocessing
